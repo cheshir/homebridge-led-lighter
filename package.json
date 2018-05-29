@@ -1,5 +1,5 @@
 {
-    "name": "led-single",
+    "name": "homebridge-led-single",
     "version": "0.0.1",
     "description": "Single LED",
     "license": "MIT",
