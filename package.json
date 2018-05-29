@@ -2,16 +2,16 @@
     "name": "led-single",
     "version": "0.0.1",
     "description": "Single LED",
-    "license": "ISC",
+    "license": "MIT",
     "keywords": [
         "homebridge-plugin"
     ],
     "repository": {
         "type": "git",
-        "url": "git://github.com/example/homebridge.git"
+        "url": "git://github.com/cheshir/homebridge-led-lighter.git"
     },
     "bugs": {
-        "url": "http://github.com/example/homebridge/issues"
+        "url": "http://github.com/cheshir/homebridge-led-lighter/issues"
     },
     "engines": {
         "node": ">=0.12.0",

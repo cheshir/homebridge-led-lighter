@@ -3,12 +3,10 @@ const Gpio = require('onoff').Gpio; //include onoff to interact with the GPIO
 let Service, Characteristic;
 
 module.exports = function(homebridge) {
-    // Service and Characteristic are from hap-nodejs
+    // Service and Characteristic are from hap-nodejs.
     Service = homebridge.hap.Service;
     Characteristic = homebridge.hap.Characteristic;
 
-    // For platform plugin to be considered as dynamic platform plugin,
-    // registerPlatform(pluginName, platformName, constructor, dynamic), dynamic must be true
     homebridge.registerAccessory("switch-plugin", "LED", accessory)
 };
 
